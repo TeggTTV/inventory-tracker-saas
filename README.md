@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Inventory Tracker
 
-## Getting Started
+A simple inventory management app for small to large business owners.
 
-First, run the development server:
+## 👥 Target Users
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Small to large shop owners
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Main Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Stock levels
+- Categories/subcategories
+- Supplier info
+- Item location & batches
+- Expiration dates
+- Alerts (low/overstock)
+- Sales trends
+- Barcode scanner
+- CSV import/export
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Platform
 
-## Learn More
+- Web first, mobile later
 
-To learn more about Next.js, take a look at the following resources:
+## 🔌 Offline/Online Use
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Offline for small teams
+- Online multi-user support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌱 Future Features
 
-## Deploy on Vercel
+- Auto restock prediction
+- Inventory value calculator
+- Supplier reordering
+- Product bundling
+- Audit mode
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💰 Monetization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Free plan
+- One-time payment
+- Optional subscription
+
+## Website Structure
+
+- Home
+- Features
+- Pricing
+- About
+- Contact
+- Blog
+- FAQ
+- Terms of Service
+- Privacy Policy
+
+## Landing Page
+
+- Nav
+- Hero section
+- Features
+- Testimonials
+- Pricing
+- CTA
+- Footer
+
+##
