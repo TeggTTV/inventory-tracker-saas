@@ -105,16 +105,17 @@ export default function Hero() {
                 >
                     <Link
                         href="#features"
-                        className="transition-all delay-75 px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-400 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-blue-800 animate-float"
+                        className="transition-all delay-75 px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-400 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-blue-800"
                     >
                         Explore Features
                     </Link>
                     <Link
                         href="#pricing"
-                        className="transition-all px-6 py-3 text-blue-800 border border-blue-800 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 dark:text-blue-400 dark:border-blue-400 dark:hover:bg-gray-800 dark:focus:ring-blue-800 animate-float delay-200"
+                        className="transition-all px-6 py-3 text-blue-800 border border-blue-800 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 dark:text-blue-400 dark:border-blue-400 dark:hover:bg-gray-800 dark:focus:ring-blue-800 delay-200"
                     >
                         View Pricing
                     </Link>
+
                 </motion.div>
             </div>
 

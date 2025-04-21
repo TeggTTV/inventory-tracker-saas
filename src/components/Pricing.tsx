@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function PricingSection() {
     return (
-        <section className="relative bg-gray-900  overflow-hidden">
+        <section className="relative dark:bg-gray-900  overflow-hidden">
             {/* Floating Icons Background */}
 
             <div className="relative py-16 px-4 mx-auto max-w-screen-xl lg:px-6 z-10">
