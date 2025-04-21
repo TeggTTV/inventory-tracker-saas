@@ -28,13 +28,13 @@ export default function Navbar() {
             {menuOpen && (
                 <div
                     onClick={closeMenu}
-                    className="fixed inset-0 dark:bg-[#0f172a] bg-opacity-40 z-10 md:hidden"
+                    className="fixed inset-0 dark:bg-[#0f172a] bg-opacity-40 z-10 lg:hidden"
                 ></div>
             )}
 
             {/* Navbar */}
             <nav className="backdrop-blur-sm bg-white/50 dark:bg-gray-900/50 fixed w-full z-20 top-0 start-0">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1 md:p-4">
                     {/* Logo */}
                     <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <Image
@@ -51,7 +51,7 @@ export default function Navbar() {
                     </Link>
 
                     {/* Hamburger Icon */}
-                    <div className="md:hidden">
+                    <div className="lg:hidden">
                         <button
                             onClick={() => setMenuOpen(!menuOpen)}
                             type="button"
@@ -73,7 +73,41 @@ export default function Navbar() {
                     </div>
 
                     {/* Desktop Buttons */}
-                    <div className="hidden md:flex md:items-center md:space-x-6 md:order-2">
+                    <div className="hidden lg:flex md:items-center md:space-x-6 md:order-2">
+                        <ul className="flex items-center space-x-6">
+                            <li>
+                                <Link
+                                    href="#"
+                                    className="text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500"
+                                >
+                                    Home
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="#features"
+                                    className="text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500"
+                                >
+                                    Features
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="#pricing"
+                                    className="text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500"
+                                >
+                                    Pricing
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="#contact"
+                                    className="text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500"
+                                >
+                                    Contact
+                                </Link>
+                            </li>
+                        </ul>
                         <button onClick={toggleTheme} className="cursor-pointer text-gray-700 dark:text-gray-200">
                             {mounted && theme === 'dark' ? <Moon className="w-6 h-6" /> : <Sun className="w-6 h-6" />}
                         </button>
