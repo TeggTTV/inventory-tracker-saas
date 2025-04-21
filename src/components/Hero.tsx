@@ -121,8 +121,8 @@ export default function Hero() {
             {/* Testimonials & scroll arrow stay the same */}
             <div className="relative mt-12 overflow-hidden">
                 {/* fade edges */}
-                <div className="pointer-events-none absolute left-0 top-0 h-full w-12 bg-gradient-to-r from-[#0f172a] to-transparent z-10" />
-                <div className="pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-[#0f172a] to-transparent z-10" />
+                <div className="pointer-events-none absolute left-0 top-0 h-full w-12 bg-gradient-to-r from-white dark:from-[#0f172a] to-transparent z-10" />
+                <div className="pointer-events-none absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-white dark:from-[#0f172a] to-transparent z-10" />
 
                 {/* scrolling container */}
                 <div

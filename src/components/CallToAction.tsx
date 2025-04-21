@@ -11,10 +11,10 @@ export default function CallToAction() {
 
             <div className="container mx-auto px-6 lg:px-20 text-center">
                 <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-6">
-                    Stay in Control of Your Inventory
+                    Stay in Control
                 </h2>
                 <p className="text-lg text-gray-600 dark:text-gray-400 max-w-xl mx-auto mb-8">
-                    Get real-time insights and updates straight to your inbox. No spam—just tools to help your shop grow.
+                    Get real-time insights and updates straight to your inbox.
                 </p>
 
                 <form className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full max-w-2xl mx-auto">
