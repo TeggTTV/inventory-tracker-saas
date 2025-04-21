@@ -74,10 +74,10 @@ export default function Navbar() {
 
                     {/* Desktop Buttons */}
                     <div className="hidden md:flex md:items-center md:space-x-6 md:order-2">
-                        <button onClick={toggleTheme} className="text-gray-700 dark:text-gray-200">
+                        <button onClick={toggleTheme} className="cursor-pointer text-gray-700 dark:text-gray-200">
                             {mounted && theme === 'dark' ? <Moon className="w-6 h-6" /> : <Sun className="w-6 h-6" />}
                         </button>
-                        <button className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-blue-800">
+                        <button className="cursor-pointer text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-blue-800">
                             Get Started
                         </button>
                     </div>
