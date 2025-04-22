@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export const exportToCSV = (data: any[], filename: string) => {
+export const exportToCSV = (data: Record<string, unknown>[], filename: string) => {
   if (!data || !data.length) {
     return;
   }
@@ -30,4 +30,13 @@ export const exportToCSV = (data: any[], filename: string) => {
   a.click();
   URL.revokeObjectURL(url);
   a.remove();
+};
+
+// Append an action to the auditLogs in localStorage
+export const logAction = (type: 'add' | 'edit' | 'delete', description: string) => {
+  const key = 'auditLogs';
+  const stored = localStorage.getItem(key);
+  const logs = stored ? JSON.parse(stored) : [];
+  logs.push({ type, description, date: new Date().toISOString() });
+  localStorage.setItem(key, JSON.stringify(logs));
 };

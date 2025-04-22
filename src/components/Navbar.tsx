@@ -122,7 +122,7 @@ export default function Navbar({ relative }: { relative?: boolean }) {
                             } absolute top-full left-0 w-full z-20`}
                         id="navbar-sticky"
                     >
-                        <ul className="flex flex-col gap-2 font-medium border border-gray-100  p-4 dark:border-gray-800 bg-white dark:bg-gray-800">
+                        <ul className="flex flex-col gap-2 font-medium border border-gray-100 p-4 dark:border-gray-800 bg-white dark:bg-gray-800">
                             <li>
                                 <Link
                                     href="/"
